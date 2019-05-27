@@ -41,3 +41,4 @@ O armazenamento de Blobs do Azure e o armazenamento de Tabelas do Azure dão sup
 # Cenários híbridos
 Os cenários híbridos exigem que o tempo de execução de integração auto-hospedado (INTEGRATION RUNTIME) seja instalado em uma rede local, dentro de uma rede virtual (Azure) ou dentro de uma nuvem privada virtual (Amazon). O tempo de execução de integração auto-hospedado deve ser capaz de acessar os armazenamentos de dados locais. Para obter mais informações sobre o tempo de execução de integração auto-hospedado, consulte https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime
 
+![alt text](https://docs.microsoft.com/pt-br/azure/data-factory/media/data-movement-security-considerations/data-management-gateway-channels.png)
