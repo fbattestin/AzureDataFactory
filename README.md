@@ -91,3 +91,6 @@ Os armazenamentos de dados na nuvem exigem a lista de permissões do endereço I
 * Repositório Azure Data Lake
 * Azure Cosmos DB
 * Amazon Redshift
+
+# Quais são os requisitos de porta para o tempo de execução de integração auto-hospedado funcionar?
+O tempo de execução de integração auto-hospedado faz conexões com base em HTTP para acessar a internet. As portas de saída 443 devem ser abertas para o tempo de execução de integração auto-hospedado para fazer essa conexão. Abra a porta de entrada 8050 somente no nível do computador (não no nível de firewall corporativo) para o aplicativo gerenciador de credenciais. Se o Banco de Dados SQL do Azure ou o SQL Data Warehouse do Azure for usado como a origem ou o destino, você precisará abrir a porta 1433 também. Para obter mais informações, consulte a seção Configurações de firewall e endereços IP na lista de permissões.
